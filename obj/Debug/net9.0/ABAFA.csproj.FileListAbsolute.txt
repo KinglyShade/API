@@ -1,0 +1,12 @@
+C:\Users\ferna\Documents\GitHub\POO\API\bin\Debug\net9.0\ABAFA.deps.json
+C:\Users\ferna\Documents\GitHub\POO\API\bin\Debug\net9.0\ABAFA.dll
+C:\Users\ferna\Documents\GitHub\POO\API\bin\Debug\net9.0\ABAFA.pdb
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.AssemblyInfoInputs.cache
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.AssemblyInfo.cs
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.sourcelink.json
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.dll
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\refint\ABAFA.dll
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ABAFA.pdb
+C:\Users\ferna\Documents\GitHub\POO\API\obj\Debug\net9.0\ref\ABAFA.dll

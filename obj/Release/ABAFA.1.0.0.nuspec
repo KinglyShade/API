@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ABAFA</id>
+    <version>1.0.0</version>
+    <authors>Fernando</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>API para controlar y estilizar la consola</description>
+    <repository type="git" url="https://github.com/tuusuario/ABAFA" commit="7beba1d2cbdb59b3fb8286ad2c25175a8d837d34" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ferna\Documents\GitHub\POO\API\bin\Release\net9.0\ABAFA.dll" target="lib\net9.0\ABAFA.dll" />
+  </files>
+</package>

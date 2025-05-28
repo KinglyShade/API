@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Framework objetivo -->
+    <TargetFramework>net9.0</TargetFramework>
+
+    <!-- Información del paquete NuGet -->
+    <PackageId>ABAFA</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Fernando</Authors>
+    <Company>KFS</Company>
+    <Description>API para controlar y estilizar la consola</Description>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    
+    <!-- Metadatos NuGet recomendados -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/tuusuario/ABAFA</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
