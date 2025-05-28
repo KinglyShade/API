@@ -1,0 +1,25 @@
+# Etapa base con el runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+# Etapa de construcción con SDK
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copiar todos los archivos del proyecto
+COPY . .
+
+# Restaurar dependencias
+RUN dotnet restore "./ABAFA.csproj"
+
+# Compilar y publicar en modo release
+RUN dotnet publish "./ABAFA.csproj" -c Release -o /app/publish
+
+# Imagen final
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Comando de inicio
+ENTRYPOINT ["dotnet", "ABAFA.dll"]
